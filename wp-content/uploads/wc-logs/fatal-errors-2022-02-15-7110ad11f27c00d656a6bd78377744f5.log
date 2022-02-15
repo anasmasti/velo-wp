@@ -1,0 +1,66 @@
+2022-02-15T10:07:28+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:385
+Stack trace:
+#0 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): Header_Footer_Elementor->enqueue_scripts('')
+#1 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\tp_wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\tp_wordpress\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#7 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->ap dans C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php à la ligne 385
+
+2022-02-15T10:26:23+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:385
+Stack trace:
+#0 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): Header_Footer_Elementor->enqueue_scripts('')
+#1 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\tp_wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\tp_wordpress\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#7 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->ap dans C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php à la ligne 385
+
+2022-02-15T10:31:21+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:385
+Stack trace:
+#0 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): Header_Footer_Elementor->enqueue_scripts('')
+#1 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\tp_wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\tp_wordpress\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#7 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->ap dans C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php à la ligne 385
+
+2022-02-15T10:33:16+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:385
+Stack trace:
+#0 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): Header_Footer_Elementor->enqueue_scripts('')
+#1 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\tp_wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\tp_wordpress\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#7 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->ap dans C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php à la ligne 385
+
+2022-02-15T10:33:24+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:385
+Stack trace:
+#0 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): Header_Footer_Elementor->enqueue_scripts('')
+#1 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\tp_wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\tp_wordpress\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#7 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->ap dans C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php à la ligne 385
+
+2022-02-15T11:26:23+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:385
+Stack trace:
+#0 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): Header_Footer_Elementor->enqueue_scripts('')
+#1 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\tp_wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\tp_wordpress\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#7 C:\xampp\htdocs\tp_wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->ap dans C:\xampp\htdocs\tp_wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php à la ligne 385
+
