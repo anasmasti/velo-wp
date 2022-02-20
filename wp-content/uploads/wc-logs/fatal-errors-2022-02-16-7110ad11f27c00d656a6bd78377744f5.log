@@ -1,0 +1,4 @@
+2022-02-16T14:28:04+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) dans /Applications/MAMP/htdocs/tp_wordpress/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php à la ligne 339
+
+2022-02-16T14:29:23+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) dans /Applications/MAMP/htdocs/tp_wordpress/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php à la ligne 339
+

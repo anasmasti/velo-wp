@@ -1,16 +1,16 @@
 # BEGIN WpFastestCache
-# Modified Time: 15-02-22 12:38:22
+# Modified Time: 16-02-22 15:47:47
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^www.localhost [NC]
-RewriteRule ^(.*)$ http\:\/\/localhost\/tp_wordpress\/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.localhost:8888 [NC]
+RewriteRule ^(.*)$ http\:\/\/localhost\:8888\/tp_wordpress\/$1 [R=301,L]
 # Start WPFC Exclude
 # End WPFC Exclude
 # Start_WPFC_Exclude_Admin_Cookie
 RewriteCond %{HTTP:Cookie} !wordpress_logged_in_[^\=]+\=anas
 # End_WPFC_Exclude_Admin_Cookie
-RewriteCond %{HTTP_HOST} ^localhost
+RewriteCond %{HTTP_HOST} ^localhost:8888
 RewriteCond %{HTTP_USER_AGENT} !(facebookexternalhit|WP_FASTEST_CACHE_CSS_VALIDATOR|Twitterbot|LinkedInBot|WhatsApp|Mediatoolkitbot)
 RewriteCond %{HTTP_USER_AGENT} !(WP\sFastest\sCache\sPreload(\siPhone\sMobile)?\s*Bot)
 RewriteCond %{REQUEST_METHOD} !POST
@@ -22,8 +22,8 @@ RewriteCond %{HTTP:Cookie} !comment_author_
 RewriteCond %{HTTP:Cookie} !safirmobilswitcher=mobil
 RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/all/$1/index.html -f [or]
-RewriteCond C:\xampp\htdocs\tp_wordpress\wp-content/cache/all/$1/index.html -f
-RewriteRule ^(.*) "/wp-content/cache/all/$1/index.html" [L]
+RewriteCond /Applications/MAMP/htdocs/tp_wordpress/wp-content/cache/all/tp_wordpress/$1/index.html -f
+RewriteRule ^(.*) "/tp_wordpress/wp-content/cache/all/tp_wordpress/$1/index.html" [L]
 </IfModule>
 <FilesMatch "index\.(html|htm)$">
 AddDefaultCharset UTF-8
@@ -91,9 +91,6 @@ FileETag None
 </IfModule>
 </FilesMatch>
 # END LBCWpFastestCache
-
-
-
 # BEGIN WordPress
 # Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
 # dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
