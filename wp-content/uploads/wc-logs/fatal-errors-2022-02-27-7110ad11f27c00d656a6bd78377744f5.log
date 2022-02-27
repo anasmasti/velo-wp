@@ -1,0 +1,72 @@
+2022-02-27T08:22:52+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php:221
+Stack trace:
+#0 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /Applications/MAMP/htdocs/tp_wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tp_wordpress/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown dans /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php à la ligne 221
+
+2022-02-27T08:23:08+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php:221
+Stack trace:
+#0 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /Applications/MAMP/htdocs/tp_wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tp_wordpress/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown dans /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php à la ligne 221
+
+2022-02-27T08:23:25+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php:221
+Stack trace:
+#0 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /Applications/MAMP/htdocs/tp_wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tp_wordpress/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown dans /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php à la ligne 221
+
+2022-02-27T08:23:34+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php:221
+Stack trace:
+#0 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /Applications/MAMP/htdocs/tp_wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tp_wordpress/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown dans /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php à la ligne 221
+
+2022-02-27T08:29:44+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php:221
+Stack trace:
+#0 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /Applications/MAMP/htdocs/tp_wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tp_wordpress/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown dans /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php à la ligne 221
+
+2022-02-27T08:30:35+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php:221
+Stack trace:
+#0 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/tp_wordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /Applications/MAMP/htdocs/tp_wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tp_wordpress/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown dans /Applications/MAMP/htdocs/tp_wordpress/wp-includes/customize/class-wp-customize-partial.php à la ligne 221
+

@@ -1105,6 +1105,11 @@ return array(
 		'SN' => __( 'Sinoe', 'woocommerce' ),
 	),
 	'LU' => array(),
+	'MA' => array( // Morocco states.
+		'CA' => __( 'Casablanca', 'woocommerce' ),
+		'RA' => __( 'Rabat', 'woocommerce' ),
+		'TA' => __( 'Tanger', 'woocommerce' ),
+	),
 	'MD' => array( // Moldova states.
 		'C'  => __( 'Chișinău', 'woocommerce' ),
 		'BL' => __( 'Bălți', 'woocommerce' ),
